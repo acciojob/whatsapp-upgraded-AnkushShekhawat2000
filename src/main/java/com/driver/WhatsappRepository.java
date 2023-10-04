@@ -7,7 +7,7 @@ import java.util.*;
 
 
 @Repository
-public class WatsappRepository {
+public class WhatsappRepository {
 
     //Assume that each user belongs to at most one group
     //You can use the below-mentioned hashmaps or delete these and create your own.
@@ -22,7 +22,7 @@ public class WatsappRepository {
     //HashMap<String,User> userMap = new HashMap<>();
 
 
-    public WatsappRepository(){
+    public WhatsappRepository(){
         this.groupMessageMap = new HashMap<Group, List<Message>>();
         this.groupUserMap = new HashMap<Group, List<User>>();
         this.senderMap = new HashMap<Message, User>();
